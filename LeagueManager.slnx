@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="LeagueManager.Application/LeagueManager.Application.csproj" Id="4d3984d2-fa05-4e5f-8864-f398aae4b437" />
+    <Project Path="LeagueManager.Domain/LeagueManager.Domain.csproj" Id="f683e2c8-fa31-43a7-b98a-57dc882f6504" />
+    <Project Path="LeagueManager.Infrastructure/LeagueManager.Infrastructure.csproj" Id="40b8bde2-81bd-4fe4-9549-941a53e98deb" />
+    <Project Path="LeagueManager.Persistence/LeagueManager.Persistence.csproj" Id="b9fc9c3d-3b4e-4148-86ba-28f23b6ef222" />
+    <Project Path="LeagueManager.Presentation/LeagueManager.Presentation.csproj" Id="aa173cf8-12eb-4938-ae56-b28696f4ccb8" />
+    <Project Path="LeagueManager.WebApi/LeagueManager.WebApi.csproj" Id="ed893a5b-36af-4d78-97fe-9715bd26d84d" />
+  </Folder>
+</Solution>

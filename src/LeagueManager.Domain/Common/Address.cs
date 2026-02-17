@@ -2,7 +2,7 @@
 
 namespace LeagueManager.Domain.Common;
 
-public record Address : IValueObject
+public sealed record Address : IValueObject
 {
     public string Street { get; init; }
 

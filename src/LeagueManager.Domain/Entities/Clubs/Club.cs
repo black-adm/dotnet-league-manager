@@ -1,11 +1,12 @@
 ﻿using LeagueManager.Domain.Common;
+using LeagueManager.Domain.Entities.Clubs;
 using LeagueManager.Domain.Interfaces;
 using LeagueManager.Domain.Players;
 using LeagueManager.Domain.Stadiums;
 
 namespace LeagueManager.Domain.Clubs;
 
-public class Club : BaseEntity, IAggregateRoot
+public sealed class Club : IBaseEntity, IAggregateRoot
 {
     public string Name { get; private set; } = string.Empty;
 

@@ -2,7 +2,7 @@
 
 namespace LeagueManager.Domain.Clubs;
 
-public class StaffMember : BaseEntity, IAggregateRoot
+public sealed class StaffMember : IBaseEntity, IAggregateRoot
 {
     public string FullName { get; private set; } = string.Empty;
 

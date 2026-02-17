@@ -1,8 +1,8 @@
 ﻿using LeagueManager.Domain.Interfaces;
 
-namespace LeagueManager.Domain.Clubs;
+namespace LeagueManager.Domain.Entities.Clubs;
 
-public record SocialLinks(
+public sealed record SocialLinks(
     string FacebookUrl,
     string TwitterUrl,
     string InstagramUrl,

@@ -2,7 +2,7 @@
 
 namespace LeagueManager.Domain.Players;
 
-public record PlayerContract(
+public sealed record PlayerContract(
     Guid ClubId,
     DateTime? StartDate,
     DateTime? EndDate,

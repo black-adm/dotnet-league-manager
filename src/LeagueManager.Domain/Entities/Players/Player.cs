@@ -2,7 +2,7 @@
 
 namespace LeagueManager.Domain.Players;
 
-public class Player : BaseEntity, IAggregateRoot
+public sealed class Player : IBaseEntity, IAggregateRoot
 {
     public string Name { get; private set; } = string.Empty;
 

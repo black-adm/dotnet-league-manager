@@ -3,7 +3,7 @@ using LeagueManager.Domain.Interfaces;
 
 namespace LeagueManager.Domain.Stadiums;
 
-public class Stadium : BaseEntity, IAggregateRoot
+public sealed class Stadium : IBaseEntity, IAggregateRoot
 {
     public string Name { get; private set; } = string.Empty;
 

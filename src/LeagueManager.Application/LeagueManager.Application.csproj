@@ -15,4 +15,10 @@
     <ProjectReference Include="..\LeagueManager.Domain\LeagueManager.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="UseCases\Clubs\Commands\" />
+    <Folder Include="UseCases\Stadiums\" />
+    <Folder Include="UseCases\Players\" />
+  </ItemGroup>
+
 </Project>

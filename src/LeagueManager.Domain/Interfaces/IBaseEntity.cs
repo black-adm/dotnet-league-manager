@@ -1,6 +1,6 @@
 ﻿namespace LeagueManager.Domain.Interfaces;
 
-public abstract class BaseEntity : IEntity
+public abstract class IBaseEntity : IEntity
 {
     public Guid Id { get; set; }
 }
